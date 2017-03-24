@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7746EEE71E84C2C6008B0839 /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7746EEE61E84C2C6008B0839 /* silence.wav */; };
 		77A4EA5B1E7A514100DE6A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4EA5A1E7A514100DE6A89 /* main.m */; };
 		77A4EA5E1E7A514100DE6A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4EA5D1E7A514100DE6A89 /* AppDelegate.m */; };
 		77A4EA611E7A514100DE6A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4EA601E7A514100DE6A89 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7746EEE61E84C2C6008B0839 /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
 		77A4EA561E7A514100DE6A89 /* AudioSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A4EA5A1E7A514100DE6A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A4EA5C1E7A514100DE6A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		77A4EA581E7A514100DE6A89 /* AudioSession */ = {
 			isa = PBXGroup;
 			children = (
+				7746EEE61E84C2C6008B0839 /* silence.wav */,
 				77A4EA701E7A52B200DE6A89 /* test_0.mp3 */,
 				77A4EA711E7A52B200DE6A89 /* test_1.mp3 */,
 				77A4EA5C1E7A514100DE6A89 /* AppDelegate.h */,
@@ -160,6 +163,7 @@
 				77A4EA661E7A514100DE6A89 /* Assets.xcassets in Resources */,
 				77A4EA641E7A514100DE6A89 /* Main.storyboard in Resources */,
 				77A4EA731E7A52B200DE6A89 /* test_1.mp3 in Resources */,
+				7746EEE71E84C2C6008B0839 /* silence.wav in Resources */,
 				77A4EA721E7A52B200DE6A89 /* test_0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +338,7 @@
 				77A4EA6F1E7A514100DE6A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

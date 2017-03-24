@@ -13,6 +13,7 @@
 
 @property(nonatomic,strong)AVAudioPlayer* test_0;
 @property(nonatomic,strong)AVAudioPlayer* test_1;
+@property(nonatomic,strong)AVAudioPlayer* silence;
 
 @end
 
